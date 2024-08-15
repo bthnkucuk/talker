@@ -1,12 +1,13 @@
 {
-    "git.enabled": true,
-    "dart.previewLsp": true,
-    "editor.codeActionsOnSave": {
-        "source.fixAll": "explicit",
-        "source.organizeImports": "explicit"
-    },
-    "editor.formatOnSave": true,
-    "cSpell.words": [
-        "endtemplate"
-    ],
+  "git.enabled": true,
+  "dart.previewLsp": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "cSpell.words": [
+    "endtemplate"
+  ],
+  "dart.flutterSdkPath": ".fvm/versions/stable"
 }

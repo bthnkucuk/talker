@@ -25,9 +25,8 @@ extension TalkerFlutter on Talker {
       print(message);
       return;
     }
-    if ([TargetPlatform.iOS, TargetPlatform.macOS]
-        .contains(defaultTargetPlatform)) {
-      log(message, name: 'Talker');
+    if ([TargetPlatform.iOS, TargetPlatform.macOS].contains(defaultTargetPlatform)) {
+      log(message, name: 'Batuhan');
       return;
     }
     debugPrint(message);
